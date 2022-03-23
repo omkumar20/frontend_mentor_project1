@@ -1,0 +1,26 @@
+.back-pd{    padding: 5% 15px;}
+.top-left-sec h1{    font-weight: bold;color: #542352;font-size: 5rem;    line-height: 1;    font-family: 'spartanbold';}
+.top-left-sec p{    font-size: 16px;    margin: 20px 0;}
+.top-right-sec ul li{    padding: 16px;background: #f5f3f6;border-radius: 5px;list-style: none;margin: 15px 0;width: 80%; color: #4d194a; font-weight: bold;}
+.top-right-sec ul li:nth-child(2){margin-left: 10%;}
+.top-right-sec ul li:last-child{margin-left: 20%;}
+.top-right-sec ul li span img{margin: 0 5px;}
+.top-right-sec ul li span{margin-right: 15px;}
+.bootom-tab {background: #511f50;float: left;width: 100%;border-radius: 10px;padding: 25px;color: #fff;font-family: 'spartanregular';}
+.bootom-tab h4{    font-weight: bold;margin-bottom: 4px;    font-size: 16px;}
+.bootom-tab .col-lg-9 p{color: #c673ab;}
+.bootom-tab img{    border-radius: 50%;width: 60px;height: 60px;}
+.bootom-tab .col-lg-12 p{    margin-top: 25px;}
+.bottom-sec .col-lg-4:nth-child(2) .bootom-tab{margin-top: 20px;}
+.bottom-sec .col-lg-4:nth-child(3) .bootom-tab{margin-top: 40px;}
+.bottom-sec{    margin-top: 40px;}
+
+@media only screen and (max-width: 500px) {
+.top-left-sec h1 br, .top-left-sec p br{display: none;}
+.top-left-sec h1{text-align: center;font-size: 4rem;line-height: 1.1;}
+.top-left-sec p{text-align: center;}
+.top-right-sec ul li span{display: block;margin-right: 0;margin-bottom: 6px;}
+.top-right-sec ul li{    text-align: center;width: 100%; margin-left: 0 !important;}
+.top-right-sec ul{padding: 0;}
+
+}
